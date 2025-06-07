@@ -2,7 +2,7 @@ import { FiDownload } from 'react-icons/fi';
 import { useTypingAnimation } from '../hooks/useTypingAnimation';
 
 const About = () => {
-  const typingTexts = ['Full stack development', 'solve real life problems'];
+  const typingTexts = ['Full stack development', 'to solve real life problems'];
   const displayText = useTypingAnimation(typingTexts, 100, 2000);
 
   const handleDownloadResume = () => {
